@@ -35,7 +35,7 @@ if torch.cuda.is_available():
 LR = 0.001
 BATCH_SIZE = 16
 DROPOUT = 0.5
-EPOCHS = 10
+EPOCHS = 15
 OPTIMIZER_NAME = "Adam"
 RUN_ID = f"baseline_{int(time.time())}"
 
